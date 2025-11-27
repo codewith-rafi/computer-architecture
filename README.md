@@ -367,6 +367,7 @@ Word alignment requirements apply to both big endian and little endian systems.
 ## SECTION 6: SHORT ANSWER QUESTIONS
 
 ### Question 1: Endianness Storage
+![Alt text](assets/1.png)
 
 **a) Store 0xFEDC1234 starting at 0x100**
 
@@ -389,6 +390,8 @@ Word alignment requirements apply to both big endian and little endian systems.
 ---
 
 ### Question 2: Reverse Polish Notation to Infix
+
+![Alt text](assets/2.png)
 
 **a) W X Y Z – + ×**
 
@@ -417,18 +420,22 @@ Word alignment requirements apply to both big endian and little endian systems.
 
 ### Question 3: Addressing Modes - Load 1000
 
-**Given:** Memory[1000]=600, Memory[600]=800, R1=100
+![Alt text](assets/3.png)
+
+**Given:** Memory[1000]=600, Memory[600]=800, R1=200
 
 | Mode | Value Loaded into AC |
 |------|----------------------|
 | Immediate | 1000 |
 | Direct | 600 |
 | Indirect | 800 |
-| Indexed | Memory[1100] |
+| Indexed | Memory[1200] |
 
 ---
 
 ### Question 3 (Alternative): Addressing Modes - Load 600
+
+![Alt text](assets/3.1.png)
 
 **Given:** Memory[600]=500, Memory[500]=300, R1=100
 
@@ -442,6 +449,8 @@ Word alignment requirements apply to both big endian and little endian systems.
 ---
 
 ### Question 4: Fully Associative Cache
+
+![Alt text](assets/4.png)
 
 **Given:** Memory=2¹⁶ bytes, Cache=64 blocks, Block size=32 bytes
 
@@ -467,6 +476,8 @@ Tag = 0x7C6, Offset = 0x09
 
 ### Question 4 (Alternative): Instruction Format
 
+![Alt text](assets/4.1.png)
+
 **Given:** 16-bit instructions, 32 operations, 16 registers
 - First address: register
 - Second address: memory
@@ -491,6 +502,8 @@ Memory size = 2⁷ = 128 words
 
 ### Question 5: Disk Drive Characteristics
 
+![Alt text](assets/5.png)
+
 **Given:** 6 surfaces, 953 tracks/surface, 256 sectors/track, 512 bytes/sector, 6.5ms seek, 5400 rpm
 
 **a) Capacity:**
@@ -508,6 +521,8 @@ Total ≈ 12 ms
 ---
 
 ### Question 5 (Alternative): MARIE Instructions
+
+![Alt text](assets/5.1.png)
 
 **Given MARIE instruction set:**
 
@@ -546,6 +561,8 @@ Answer: Skipcond 10 (Skip if AC > 0)
 
 ### Question 6: System Speedup
 
+![Alt text](assets/6.png)
+
 **Goal:** 30% faster, CPU=70%, I/O=30%
 
 **a) CPU speedup needed:**
@@ -563,6 +580,8 @@ S_disk = 4.35× (335% faster)
 ---
 
 ### Question 6 (Alternative): TLB and Page Table
+
+![Alt text](assets/6.1.png)
 
 **Given:** 
 - Byte-addressable virtual memory
@@ -614,6 +633,8 @@ Format: [Page(3) | Offset(4)]
 
 ### Problem 1: Instruction Format Design
 
+![Alt text](assets/7.png)
+
 **Given:** 256K words × 32 bits, 7 modes, 60 registers, 32-bit instruction
 
 **a) Mode field:**
@@ -640,6 +661,8 @@ log₂(256K) = log₂(2¹⁸) = 18 bits
 ---
 
 ### Problem 2: Direct-Mapped Cache Analysis
+
+![Alt text](assets/8.png)
 
 **Given:**
 - Cache: 8 blocks
@@ -684,6 +707,8 @@ EAT = 20.79 + 16.53 = 37.32 ns
 ---
 
 ### Problem 3: Loop Cache Performance
+
+![Alt text](assets/9.png)
 
 **Given:** Matrix 128×64, 4-byte integers, 4KB cache, 32-byte lines, row-major
 
