@@ -422,13 +422,13 @@ Word alignment requirements apply to both big endian and little endian systems.
 
 ![Alt text](assets/3.png)
 
-**Given:** Memory[1000]=600, Memory[600]=800, R1=200
+**Given:** Memory[1000]=1400, Memory[1400]=1300, R1=200
 
 | Mode | Value Loaded into AC |
 |------|----------------------|
 | Immediate | 1000 |
-| Direct | 600 |
-| Indirect | 800 |
+| Direct | 1400 |
+| Indirect | 1300 |
 | Indexed | Memory[1200] = 1000 |
 
 ---
