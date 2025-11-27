@@ -429,7 +429,7 @@ Word alignment requirements apply to both big endian and little endian systems.
 | Immediate | 1000 |
 | Direct | 600 |
 | Indirect | 800 |
-| Indexed | Memory[1200] |
+| Indexed | Memory[1200] = 1000 |
 
 ---
 
@@ -444,7 +444,7 @@ Word alignment requirements apply to both big endian and little endian systems.
 | Immediate | 600 |
 | Direct | 500 |
 | Indirect | 300 |
-| Indexed | Memory[700] |
+| Indexed | Memory[700] = 800 |
 
 ---
 
